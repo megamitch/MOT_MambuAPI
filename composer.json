@@ -1,6 +1,6 @@
 {
-    "name": "codingmatters/mot-mambu",
-    "description": "MambuAPI module for Mega Mitch Credit, Inc. Office Tool (MegaOfficeTool) Platform",
+    "name": "megamitch/mot-mambu",
+    "description": "MambuAPI adapter module for Mega Mitch Credit, Inc. Office Tool (MegaOfficeTool) Platform",
     "license": "MIT",
     "type": "application",
     "keywords": [
@@ -9,7 +9,7 @@
         "mambu",
         "zf2"
     ],
-    "homepage": "https://github.com/CodingMatters/MOT_MambuAPI/",
+    "homepage": "http://megamitch.ph",
     "authors": [
         {
             "name": "Gab Amba",
