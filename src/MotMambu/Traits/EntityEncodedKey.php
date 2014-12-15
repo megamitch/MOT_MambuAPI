@@ -23,6 +23,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+namespace MotMambu\Traits;
 
-//Autoloading 3rd-party classes
-require __DIR__ . "/vendor/autoload.php";
+/**
+ * MotMambu\Trait\EntityEncodedKey
+ * 
+ * @package MotMambu\Trait
+ */
+trait EntityEncodedKey
+{
+    protected $encodedKey;
+    
+    public function setEncodedKey($key)
+    {
+        $this->encodedKey = $key;
+    }
+    
+    public function getEncodedKey()
+    {
+        return $this->encodedKey;
+    }
+}

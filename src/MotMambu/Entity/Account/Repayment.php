@@ -24,5 +24,16 @@
  * THE SOFTWARE.
  */
 
-//Autoloading 3rd-party classes
-require __DIR__ . "/vendor/autoload.php";
+namespace MotMambu\Entity\Account;
+
+use MotMambu\Traits\EntityEncodedKey;
+
+/**
+ * MotMambu\Entity\Account\Repayment
+ * 
+ * @package MotMambu\Entity\Account
+ */
+class Repayment
+{
+    use EntityEncodedKey;
+}

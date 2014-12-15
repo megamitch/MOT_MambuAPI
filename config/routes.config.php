@@ -24,5 +24,33 @@
  * THE SOFTWARE.
  */
 
-//Autoloading 3rd-party classes
-require __DIR__ . "/vendor/autoload.php";
+return [
+    'console'   => [], //routing configuration for CLI modules
+    'router'    => [
+        'routes' => [
+            'mot' => [
+                'type'      => 'Literal',
+                'options'   => [
+                    'route'     => '/mot',
+                    'defaults'  => [
+                        'controller'    => '',
+                        'action'        => ''
+                    ]
+                ],
+                'may_terminate' => true,
+                'child_routes' => [
+                    'dashboard' => [
+                        'type' => 'Literal',
+                        'options' => [
+                            'route' => '/',
+                            'defaults' => [
+                                'controller'    => '',
+                                'action' => ''
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+];
