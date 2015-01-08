@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace MotMambu\Entity\General;
+namespace MotMambu\Entity\Organization;
 
 use MotMambu\Traits\EntityEncodedKey;
 
 /**
- * MotMambu\Entity\General\User
+ * MotMambu\Entity\Organization\Center
  * 
- * @package MotMambu\Entity\General
+ * @package MotMambu\Entity\Organization
  */
-class User
+class Center
 {
     use EntityEncodedKey;
 }

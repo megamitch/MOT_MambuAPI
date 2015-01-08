@@ -29,11 +29,11 @@ namespace MotMambu\Entity\General;
 use MotMambu\Traits\EntityEncodedKey;
 
 /**
- * MotMambu\Entity\General\Client
+ * MotMambu\Entity\General\Activity
  * 
  * @package MotMambu\Entity\General
  */
-class Client
+class Activity
 {
     use EntityEncodedKey;
 }

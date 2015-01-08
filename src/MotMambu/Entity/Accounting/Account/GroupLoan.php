@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace MotMambu\Entity\General;
+namespace MotMambu\Entity\Accounting\Account;
 
 use MotMambu\Traits\EntityEncodedKey;
 
 /**
- * MotMambu\Entity\General\Branch
+ * MotMambu\Entity\Accounting\Account\GroupLoan
  * 
- * @package MotMambu\Entity\General
+ * @package MotMambu\Entity\Accounting\Account
  */
-class Branch
+class GroupLoan
 {
     use EntityEncodedKey;
 }

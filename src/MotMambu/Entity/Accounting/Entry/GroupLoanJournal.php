@@ -24,33 +24,16 @@
  * THE SOFTWARE.
  */
 
-return [
-//    'console'   => [], //routing configuration for CLI modules
-//    'router'    => [
-//        'routes' => [
-//            'mot' => [
-//                'type'      => 'Literal',
-//                'options'   => [
-//                    'route'     => '/mot',
-//                    'defaults'  => [
-//                        'controller'    => '',
-//                        'action'        => ''
-//                    ]
-//                ],
-//                'may_terminate' => true,
-//                'child_routes' => [
-//                    'dashboard' => [
-//                        'type' => 'Literal',
-//                        'options' => [
-//                            'route' => '/',
-//                            'defaults' => [
-//                                'controller'    => '',
-//                                'action' => ''
-//                            ]
-//                        ]
-//                    ]
-//                ]
-//            ]
-//        ]
-//    ]
-];
+namespace MotMambu\Entity\Accounting\Entry;
+
+use MotMambu\Traits\EntityEncodedKey;
+
+/**
+ * MotMambu\Entity\Accounting\Entry\GroupLoanJournal
+ * 
+ * @package MotMambu\Entity\Accounting\Entry
+ */
+class GroupLoanJournal
+{
+    use EntityEncodedKey;
+}

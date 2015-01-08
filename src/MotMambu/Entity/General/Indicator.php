@@ -29,11 +29,11 @@ namespace MotMambu\Entity\General;
 use MotMambu\Traits\EntityEncodedKey;
 
 /**
- * MotMambu\Entity\General\Center
+ * MotMambu\Entity\General\Indicator
  * 
  * @package MotMambu\Entity\General
  */
-class Center
+class Indicator
 {
     use EntityEncodedKey;
 }

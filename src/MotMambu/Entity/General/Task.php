@@ -24,33 +24,16 @@
  * THE SOFTWARE.
  */
 
-return [
-//    'console'   => [], //routing configuration for CLI modules
-//    'router'    => [
-//        'routes' => [
-//            'mot' => [
-//                'type'      => 'Literal',
-//                'options'   => [
-//                    'route'     => '/mot',
-//                    'defaults'  => [
-//                        'controller'    => '',
-//                        'action'        => ''
-//                    ]
-//                ],
-//                'may_terminate' => true,
-//                'child_routes' => [
-//                    'dashboard' => [
-//                        'type' => 'Literal',
-//                        'options' => [
-//                            'route' => '/',
-//                            'defaults' => [
-//                                'controller'    => '',
-//                                'action' => ''
-//                            ]
-//                        ]
-//                    ]
-//                ]
-//            ]
-//        ]
-//    ]
-];
+namespace MotMambu\Entity\General;
+
+use MotMambu\Traits\EntityEncodedKey;
+
+/**
+ * MotMambu\Entity\General\Task
+ * 
+ * @package MotMambu\Entity\General
+ */
+class Task
+{
+    use EntityEncodedKey;
+}
